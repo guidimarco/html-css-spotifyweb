@@ -8,16 +8,17 @@ h1, h2, h3, h4, h5, h6 {
     /** mettere **/
 }
 
-ul {
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
+h1 {
+    font-size: 1.1em;
 }
 
 a {
     display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
     text-decoration: none;
     color: inherit;
 }
@@ -136,13 +137,56 @@ a {
 /* ***** ASIDE ***** */
 /* #region */
 aside {
-    width: 100px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(0, 0, 0, 0.8);
+
+    color: rgb(255, 255, 255, 0.6);
+
+    padding: 20px;
 }
 
-nav#menu {
-    height: 100px;
-    background-color: red;
+#menu .logo {
+    color: white;
+}
+
+#menu .list {
+    font-size: 12px;
+
+    margin: 20px 0;
+}
+
+#menu .list li {
+    border-left: 4px solid transparent;
+
+    margin-bottom: 10px;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+#menu .list li:hover {
+    color: white;
+
+    border-left: 4px solid lightgreen;
+}
+
+#menu .list li:last-child {
+    margin-bottom: 0;
+}
+
+#menu .list a {
+    vertical-align: middle;
+}
+
+#menu .list i {
+    display: inline-block;
+    width: 30px;
+
+    font-size: 16px;
+    text-align: center;
+}
+
+#menu .recent {
+    font-size: 11px;
+    letter-spacing: 1px;
 }
 
 div#account {
@@ -156,7 +200,7 @@ div#account {
 /* ***** DIV.CONTENT ***** */
 /* #region */
 div#content {
-    width: calc(100% - 100px);
+    flex-grow: 1;
 
     overflow-x: hidden;
     overflow-y: auto;
@@ -187,17 +231,17 @@ div#music {
 
 #playback {
     width: 100px;
-    background-color: purple;
+    background-color: purple
 }
 
 #play {
     width: 100px;
-    background-color: purple;
+    background-color: purple
 }
 
 #volume {
     width: 100px;
-    background-color: purple;
+    background-color: purple
 }
 
 /* </editor-fold> */
