@@ -190,8 +190,30 @@ aside {
 }
 
 div#account {
-    height: 100px;
-    background-color: blue;
+    font-size: 15px;
+}
+
+#account a:hover {
+    color: white;
+}
+
+#account i {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#account .install {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#account .account {
+    font-weight: bold;
+}
+
+#account .account i {
+    font-size: 30px;
 }
 
 /* #endregion */
@@ -252,15 +274,27 @@ div#music {
 /* ----------------------- */
 
 /* XS */
+@media screen and (min-width: 576px) {
+    /* ASIDE */
+    div#account {
+        text-align: left!important;
+    }
+
+    #account i {
+        margin-right: 10px;
+    }
+    /* FINE ASIDE */
+}
+/* SM */
 @media screen and (min-width: 768px) {
 
 }
-/* SM */
+/* MD */
 @media screen and (min-width: 992px) {
 
 }
-/* MD */
-@media screen and (min-width: 1140px) {
+/* LG */
+@media screen and (min-width: 1200px) {
 
 }
-/* LG */
+/* XL */
