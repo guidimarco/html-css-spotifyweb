@@ -55,6 +55,10 @@ li {
     border-radius: 1px;
 }
 
+#play .progress .line {
+    width: calc(100% - 25px - 25px);
+}
+
 /* </editor-fold> */
 /* \\\\\ SYMBOLS ///// */
 
@@ -246,8 +250,36 @@ div#music {
 }
 
 #play {
-    width: 100px;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+
+    margin: 0 20px;
+}
+
+#play {
+    max-width: 400px;
+}
+
+#play .control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#play .control i {
+    margin-right: 20px;
+}
+
+#play .control i:last-child {
+    margin-right: 0;
+}
+
+#play .progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #volume {
