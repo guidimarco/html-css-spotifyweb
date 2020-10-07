@@ -1,0 +1,160 @@
+/* ||||| RESET E NORMALIZZAZIONE ||||| */
+/* <editor-fold */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: /** inserire **/;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /** mettere **/
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+/* </editor-fold> */
+/* \\\\\ RESET E NORMALIZZAZIONE ///// */
+
+/* ||||| ALL DOC CLASSES ||||| */
+/* <editor-fold */
+
+/* </editor-fold> */
+/* \\\\\ ALL DOC CLASSES ///// */
+
+/* ||||| SYMBOLS ||||| */
+/* <editor-fold */
+
+/* </editor-fold> */
+/* \\\\\ SYMBOLS ///// */
+
+/* ||||| LINKS ||||| */
+/* <editor-fold */
+
+/* </editor-fold> */
+/* \\\\\ LINKS ///// */
+
+/* ||||| QUOTE ||||| */
+/* <editor-fold */
+
+/* </editor-fold> */
+/* \\\\\ END QUOTE ///// */
+
+/* ||||| BUTTONS ||||| */
+/* <editor-fold */
+.btn {
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: all 0.25s;
+}
+
+.btn-lg {
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+.btn-primary {
+    background-color: #006aff;
+    border-color: #006aff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #1633ff;
+    border-color: #1633ff;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    border-color: #006aff;
+    color: #006aff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #006aff;
+    color: #fff;
+}
+
+.btn-light {
+    background-color: transparent;
+    color: rgba(3, 27, 78, 0.6);
+    border: 0;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    transition: color 0.3s, border 0.3s;
+}
+
+.btn-light:hover {
+    background-color: transparent;
+    color: rgb(3, 27, 78);
+    border-bottom: 3px solid #016AFF;
+}
+
+.btn-opposite {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #0069ff;
+    transition: all 0.3s;
+}
+
+.btn-opposite:hover {
+    background-color: rgba(225,225,225,0.9);
+    border-color: rgba(225,225,225,0.9);
+}
+/* </editor-fold> */
+/* \\\\\ BUTTONS ///// */
+
+
+/* ---------------- */
+/* ----- HTML ----- */
+/* ---------------- */
+
+/* ||||| HEADER ||||| */
+/* <editor-fold */
+
+/* ***** HEADER-TOP ***** */
+/* #region */
+
+/* #endregion */
+/* ***** HEADER-TOP ***** */
+
+/* ***** HEADER-BTM ***** */
+/* #region */
+
+/* #endregion */
+/* ***** HEADER-BTM ***** */
+
+/* </editor-fold> */
+/* \\\\\ END HEADER ///// */
+
+/* ----------------------- */
+/* ----- MEDIA QUERY ----- */
+/* ----------------------- */
+
+/* XS */
+@media screen and (min-width: 768px) {
+
+}
+/* SM */
+@media screen and (min-width: 992px) {
+
+}
+/* MD */
+@media screen and (min-width: 1140px) {
+
+}
+/* LG */
