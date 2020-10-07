@@ -1,11 +1,5 @@
 /* ||||| RESET E NORMALIZZAZIONE ||||| */
 /* <editor-fold */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: /** inserire **/;
 }
@@ -32,6 +26,11 @@ a {
 
 /* ||||| ALL DOC CLASSES ||||| */
 /* <editor-fold */
+.container {
+    width: 100%;
+    max-width: unset;
+    padding: 0;
+}
 
 /* </editor-fold> */
 /* \\\\\ ALL DOC CLASSES ///// */
@@ -120,26 +119,89 @@ a {
 
 
 /* ---------------- */
+/* ---------------- */
 /* ----- HTML ----- */
 /* ---------------- */
+/* ---------------- */
+#wrapper {
+    background: linear-gradient(135deg, rgb(162, 163, 3), rgb(0, 0, 0));
+}
 
-/* ||||| HEADER ||||| */
+/* ||||| MAIN ||||| */
 /* <editor-fold */
+#screen-top {
+    height: calc(100vh - 100px);
+}
 
-/* ***** HEADER-TOP ***** */
+/* ***** ASIDE ***** */
 /* #region */
+aside {
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav#menu {
+    height: 100px;
+    background-color: red;
+}
+
+div#account {
+    height: 100px;
+    background-color: blue;
+}
 
 /* #endregion */
-/* ***** HEADER-TOP ***** */
+/* ***** ASIDE ***** */
 
-/* ***** HEADER-BTM ***** */
+/* ***** DIV.CONTENT ***** */
 /* #region */
+div#content {
+    width: calc(100% - 100px);
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+nav#content-menu {
+    height: 100px;
+    background-color: green;
+}
+
+div#music {
+    height: 100px;
+    background-color: pink;
+}
 
 /* #endregion */
-/* ***** HEADER-BTM ***** */
+/* ***** DIV.CONTENT ***** */
 
 /* </editor-fold> */
-/* \\\\\ END HEADER ///// */
+/* \\\\\ END MAIN ///// */
+
+/* ||||| FOOTER ||||| */
+/* <editor-fold */
+#screen-btm {
+    height: 100px;
+    background-color: rgb(25,25,25);
+}
+
+#playback {
+    width: 100px;
+    background-color: purple;
+}
+
+#play {
+    width: 100px;
+    background-color: purple;
+}
+
+#volume {
+    width: 100px;
+    background-color: purple;
+}
+
+/* </editor-fold> */
+/* \\\\\ END FOOTER ///// */
 
 /* ----------------------- */
 /* ----- MEDIA QUERY ----- */
