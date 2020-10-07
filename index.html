@@ -16,7 +16,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- BOOTSTRAP 4.5.2 Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
 
         <!-- CSS link -->
         <!-- <link rel="stylesheet" href="css/12bool.css"> -->
@@ -25,33 +25,33 @@
 
     <body>
         <div id="wrapper">
-            <!-- inizio SX aside e contenuto -->
-            <main id="screen-top" class="container d-flex">
-                <aside class="d-flex flex-column justify-content-between">
-                    <!-- inizio SUP menu -->
+            <!-- INIZIO PARTE SUPERIORE aside e contenuto -->
+            <main id="screen-top" class="container">
+                <aside>
+                    <!-- INIZIO PARTE SUPERIORE logo, barra di navigazione -->
                     <nav id="menu">
-                        <div class="logo text-center">
-                            <i class="fab fa-spotify fa-2x align-middle"></i>
-                            <h1 class="d-none d-sm-inline-block m-0 align-middle">Spotify</h1>
+                        <div class="logo">
+                            <i class="fab fa-spotify fa-2x"></i>
+                            <h1 class="d-none d-sm-inline-block">Spotify</h1>
                         </div>
 
                         <div class="list">
-                            <ul class="list-unstyled m-0">
+                            <ul>
                                 <li>
                                     <a href="#">
-                                        <i class="fas fa-search mr-sm-2"></i>
+                                        <i class="fas fa-search"></i>
                                         <span class="d-none d-sm-inline-block">Cerca</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fas fa-home mr-sm-2"></i>
+                                        <i class="fas fa-home"></i>
                                         <span class="d-none d-sm-inline-block">Home</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fas fa-grip-lines-vertical mr-sm-2"></i>
+                                        <i class="fas fa-grip-lines-vertical"></i>
                                         <span class="d-none d-sm-inline-block">La tua libreria</span>
                                     </a>
                                 </li>
@@ -59,68 +59,74 @@
 
                         </div>
 
-                        <div class="recent d-none d-sm-inline-block">
-                            <span class="text-uppercase">Ascoltati di recente</span><br/>
+                        <div class="recent d-none d-sm-block">
+                            <p>
+                                <span>Ascoltati di recente</span>
+                            </p>
 
                             <!-- artista -->
-                            <span>Drapht</span><br/>
-                            <span class="text-uppercase">Artista</span><br/>
+                            <p>
+                                Drapht
+                                <span>Artista</span>
+                            </p>
                             <!-- playlist -->
-                            <span>Uno</span><br/>
-                            <span class="text-uppercase">Playlist</span>
+                            <p>
+                                Uno
+                                <span>Playlist</span>
+                            </p>
                         </div>
 
                     </nav><!-- fine SUP menu -->
 
-                    <!-- INF inizio account -->
-                    <div id="account" class="text-center">
-                        <div class="install">
-                            <a href="#">
-                                <i class="far fa-arrow-alt-circle-down align-middle"></i>
-                                <span class="d-none d-sm-inline-block align-middle">Install App</span>
-                            </a>
-                        </div>
-
-                        <div class="account">
-                            <a href="#">
-                                <i class="far fa-user align-middle"></i>
-                                <span class="d-none d-sm-inline-block align-middle">w.lafdili</span>
-                            </a>
-                        </div>
+                    <!-- PARTE INFERIORE inizio account -->
+                    <div id="account">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-arrow-alt-circle-down"></i>
+                                    <span class="d-none d-sm-inline-block">Install App</span>
+                                </a>
+                            </li>
+                            <li class="user-icon">
+                                <a href="#">
+                                    <i class="far fa-user fa-2x"></i>
+                                    <span class="d-none d-sm-inline-block">w.lafdili</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div><!-- fine INF account -->
-                </aside><!-- fine SX barra lat -->
+                </aside><!-- FINE PARTE SINISTRA barra lat -->
 
-                <!-- inizio DX contenuto -->
+                <!-- INIZIO PARTE DESTRA musica -->
                 <div id="content">
-                    <!-- inizio SUP menu -->
+                    <!-- PARTE SUPERIORE menu a scomparsa -->
                     <nav id="content-menu">
 
-                    </nav><!-- fine SUP menu -->
+                    </nav><!-- PARTE SUPERIORE menu -->
 
-                    <!-- inizio SUP menu -->
-                    <div id="music" class="d-flex flex-column">
+                    <!-- PARTE INFERIORE album musicali -->
+                    <div id="music">
 
-                    </div><!-- fine SUP menu -->
-
+                    </div><!-- FINE PARTE INFERIORE album -->
                 </div>
-            </main><!-- fine SUP aside e contenuto -->
+            </main><!-- FINE PARTE SUPERIORE aside e contenuto -->
 
-            <!-- inizio INF barra riproduzione -->
-            <footer id="screen-btm" class="container d-flex justify-content-between">
+            <!-- INIZIO PARTE INFERIORE barra riproduzione -->
+            <footer id="screen-btm" class="container">
                 <div id="playback">
 
-                </div><!-- fine SX -->
+                </div><!-- FINE PARTE SX icona disco in ascolto-->
 
-                <!-- parte CX -->
+                <!-- PARTE CENTRALE barra durata audio in ascolto -->
                 <div id="play">
 
-                </div><!-- fine CX -->
+                </div><!-- FINE PARTE CENTRALE -->
 
-                <!-- parte DX -->
+                <!-- parte DX volume -->
                 <div id="volume">
 
                 </div><!-- fine DX -->
-            </footer><!-- fine barra riproduzione -->
+            </footer><!-- FINE PARTE INFERIORE barra riproduzione -->
         </div>
     </body>
 </html>
