@@ -56,6 +56,46 @@ li {
     width: calc(100% - 25px - 25px);
 }
 
+.slidecontainer {
+    display: flex;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 60px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.6);
+  outline: none;
+  opacity: 0.8;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.progress .slidecontainer {
+    width: calc(100% - 25px - 25px);
+}
+
+.progress .slider {
+  width: 100%;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 5px;
+  height: 5px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
 /* </editor-fold> */
 /* \\\\\ SYMBOLS ///// */
 
